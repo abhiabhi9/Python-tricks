@@ -1,0 +1,5 @@
+#to create a variable while the python program is running use locals() or globals()
+''' for example to create a variable named A which has a value 53 use syntax like'''
+globals().update({"A":53})
+print(A)
+print(globals())
